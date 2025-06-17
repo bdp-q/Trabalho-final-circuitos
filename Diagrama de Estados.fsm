@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fsm>
+  <states>
+    <state>
+      <values></values>
+      <position x="-60.0" y="1860.0"/>
+      <number>0</number>
+      <name>desligado</name>
+      <radius>70</radius>
+      <isInitial>true</isInitial>
+      <initialAngle>15</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-480.0" y="1920.0"/>
+      <number>1</number>
+      <name>Encher</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-900.0" y="1860.0"/>
+      <number>2</number>
+      <name>Molho</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-1260.0" y="1680.0"/>
+      <number>3</number>
+      <name>Lavagem</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-1500.0" y="1320.0"/>
+      <number>4</number>
+      <name>Esvazia</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-1560.0" y="900.0"/>
+      <number>5</number>
+      <name>Encher</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-1500.0" y="480.0"/>
+      <number>6</number>
+      <name>Lavagem</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-1320.0" y="120.0"/>
+      <number>7</number>
+      <name>Esvazia</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-960.0" y="-120.0"/>
+      <number>8</number>
+      <name>Centrifugação</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-540.0" y="-240.0"/>
+      <number>9</number>
+      <name>Encher</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="-120.0" y="-180.0"/>
+      <number>10</number>
+      <name>Enxague</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="240.0" y="60.0"/>
+      <number>11</number>
+      <name>Esvazia</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="480.0" y="360.0"/>
+      <number>12</number>
+      <name>Encher</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="600.0" y="780.0"/>
+      <number>13</number>
+      <name>Enxágue</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="540.0" y="1200.0"/>
+      <number>14</number>
+      <name>Esvazia</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+    <state>
+      <values></values>
+      <position x="300.0" y="1560.0"/>
+      <number>15</number>
+      <name>Centrifugação</name>
+      <radius>70</radius>
+      <isInitial>false</isInitial>
+      <initialAngle>12</initialAngle>
+      <defaultDC>false</defaultDC>
+    </state>
+  </states>
+  <transitions>
+    <transition>
+      <values>en = 1</values>
+      <position x="-267.72223" y="1905.9445"/>
+      <fromState reference="../../../states/state"/>
+      <toState reference="../../../states/state[2]"/>
+      <condition>L ^ !P1 ^ (P0 + !P0)</condition>
+    </transition>
+    <transition>
+      <values>en = 0</values>
+      <position x="-694.09393" y="1918.6576"/>
+      <fromState reference="../../../states/state[2]"/>
+      <toState reference="../../../states/state[3]"/>
+      <condition>L  ^ C</condition>
+    </transition>
+    <transition>
+      <values>agi = 1</values>
+      <position x="-1079.4077" y="1768.8156"/>
+      <fromState reference="../../../states/state[3]"/>
+      <toState reference="../../../states/state[4]"/>
+      <condition>L ^ !T ^ CLK</condition>
+    </transition>
+    <transition>
+      <values>agi = 0, es = 1</values>
+      <position x="-1372.5516" y="1495.0344"/>
+      <fromState reference="../../../states/state[4]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>L ^ !T ^ CLK</condition>
+    </transition>
+    <transition>
+      <values>es = 0, en = 1</values>
+      <position x="-1550.5339" y="1112.9335"/>
+      <fromState reference="../../../states/state[5]"/>
+      <toState reference="../../../states/state[6]"/>
+      <condition>L ^ !T ^ !C</condition>
+    </transition>
+    <transition>
+      <values>en = 0, agi = 1</values>
+      <position x="-1568.0562" y="684.5634"/>
+      <fromState reference="../../../states/state[6]"/>
+      <toState reference="../../../states/state[7]"/>
+      <condition>L ^ !T ^ C</condition>
+    </transition>
+    <transition>
+      <values>agi = 0, es = 1</values>
+      <position x="-1425.7377" y="292.13113"/>
+      <fromState reference="../../../states/state[7]"/>
+      <toState reference="../../../states/state[8]"/>
+      <condition>L ^ !T ^ CLK</condition>
+    </transition>
+    <transition>
+      <values>gi = 1,  es = 0</values>
+      <position x="-1151.6564" y="-17.484488"/>
+      <fromState reference="../../../states/state[8]"/>
+      <toState reference="../../../states/state[9]"/>
+      <condition>L ^ !T ^ !C</condition>
+    </transition>
+    <transition>
+      <values>gi = 0, en = 1</values>
+      <position x="-757.87213" y="-207.5525"/>
+      <fromState reference="../../../states/state[9]"/>
+      <toState reference="../../../states/state[10]"/>
+      <condition></condition>
+    </transition>
+    <transition>
+      <values>en = 0, agi = 1</values>
+      <position x="-327.36258" y="-228.46185"/>
+      <fromState reference="../../../states/state[10]"/>
+      <toState reference="../../../states/state[11]"/>
+      <condition>L ^ !T ^ C</condition>
+    </transition>
+    <transition>
+      <values>agi = 0, es = 1</values>
+      <position x="73.42146" y="-80.132195"/>
+      <fromState reference="../../../states/state[11]"/>
+      <toState reference="../../../states/state[12]"/>
+      <condition>L ^ !T ^ CLK</condition>
+    </transition>
+    <transition>
+      <values>es = 0, en = 1</values>
+      <position x="374.39972" y="198.48022"/>
+      <fromState reference="../../../states/state[12]"/>
+      <toState reference="../../../states/state[13]"/>
+      <condition>L ^ !T ^ CLK</condition>
+    </transition>
+    <transition>
+      <values>en = 0, agi = 1</values>
+      <position x="549.1683" y="567.3805"/>
+      <fromState reference="../../../states/state[13]"/>
+      <toState reference="../../../states/state[14]"/>
+      <condition>L ^ !T ^ C</condition>
+    </transition>
+    <transition>
+      <values>es = 1, agi = 0</values>
+      <position x="573.643" y="990.52045"/>
+      <fromState reference="../../../states/state[14]"/>
+      <toState reference="../../../states/state[15]"/>
+      <condition>L ^ !T ^ CLK</condition>
+    </transition>
+    <transition>
+      <values>es = 0, gi = 1</values>
+      <position x="435.99686" y="1390.6646"/>
+      <fromState reference="../../../states/state[15]"/>
+      <toState reference="../../../states/state[16]"/>
+      <condition>L ^ !T ^ !C</condition>
+    </transition>
+    <transition>
+      <values>gi = 0</values>
+      <position x="133.04272" y="1725.6512"/>
+      <fromState reference="../../../states/state[16]"/>
+      <toState reference="../../../states/state"/>
+      <condition>L ^ !T ^ CLK</condition>
+    </transition>
+  </transitions>
+</fsm>
