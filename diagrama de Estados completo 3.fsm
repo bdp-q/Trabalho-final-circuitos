@@ -165,234 +165,339 @@
   <transitions>
     <transition>
       <values>en = 1</values>
-      <position x="379.34058" y="-245.93478"/>
+      <position x="379.31097" y="-246.20132"/>
       <fromState reference="../../../states/state"/>
       <toState reference="../../../states/state[2]"/>
       <condition>L ∧ !T ∧ !P1</condition>
     </transition>
     <transition>
       <values>en = 0</values>
-      <position x="920.71387" y="-101.42769"/>
+      <position x="918.8836" y="-97.76724"/>
       <fromState reference="../../../states/state[2]"/>
       <toState reference="../../../states/state[3]"/>
       <condition>L ∧ !T ∧ C</condition>
     </transition>
     <transition>
       <values>agi = 1</values>
-      <position x="1315.4633" y="251.81195"/>
+      <position x="1310.8397" y="255.11447"/>
       <fromState reference="../../../states/state[3]"/>
       <toState reference="../../../states/state[4]"/>
       <condition>L ∧ !T ∧ CLK</condition>
     </transition>
     <transition>
       <values>agi = 0, es = 1</values>
-      <position x="1495.1434" y="716.85706"/>
+      <position x="1487.772" y="717.7785"/>
       <fromState reference="../../../states/state[4]"/>
       <toState reference="../../../states/state[5]"/>
       <condition>L ∧ !T ∧ CLK</condition>
     </transition>
     <transition>
       <values>es = 0, en = 1</values>
-      <position x="1490.6378" y="1232.2931"/>
+      <position x="1484.6562" y="1231.6284"/>
       <fromState reference="../../../states/state[5]"/>
       <toState reference="../../../states/state[6]"/>
       <condition>L ∧ !T ∧ !C</condition>
     </transition>
     <transition>
       <values>en = 0, agi = 1</values>
-      <position x="1276.1156" y="1752.0867"/>
+      <position x="1272.6045" y="1749.4534"/>
       <fromState reference="../../../states/state[6]"/>
       <toState reference="../../../states/state[7]"/>
       <condition>L ∧ !T ∧ C</condition>
     </transition>
     <transition>
       <values>agi = 0, es = 1</values>
-      <position x="908.968" y="2087.936"/>
+      <position x="904.1989" y="2078.398"/>
       <fromState reference="../../../states/state[7]"/>
       <toState reference="../../../states/state[8]"/>
       <condition>L ∧ !T ∧ CLK</condition>
     </transition>
     <transition>
       <values>gi = 1,  es = 0</values>
-      <position x="482.43567" y="2209.4854"/>
+      <position x="481.31158" y="2200.4927"/>
       <fromState reference="../../../states/state[8]"/>
       <toState reference="../../../states/state[9]"/>
       <condition>L ∧ !T ∧ !C</condition>
     </transition>
     <transition>
       <values>gi = 0, en = 1</values>
-      <position x="-4.9963493" y="2179.9854"/>
+      <position x="-3.0238714" y="2172.0955"/>
       <fromState reference="../../../states/state[9]"/>
       <toState reference="../../../states/state[10]"/>
       <condition>L ∧ !T ∧ CLK ∧ (!P1 + (P1 ∧ P0))</condition>
     </transition>
     <transition>
       <values>en = 0, agi = 1</values>
-      <position x="-466.35416" y="1972.8958"/>
+      <position x="-461.84586" y="1966.5842"/>
       <fromState reference="../../../states/state[10]"/>
       <toState reference="../../../states/state[11]"/>
       <condition>L ∧ !T ∧ C</condition>
     </transition>
     <transition>
       <values>agi = 0, es = 1</values>
-      <position x="-801.06555" y="1666.8524"/>
+      <position x="-790.93945" y="1658.7516"/>
       <fromState reference="../../../states/state[11]"/>
       <toState reference="../../../states/state[12]"/>
       <condition>L ∧ !T ∧ CLK</condition>
     </transition>
     <transition>
       <values>es = 0, en = 1</values>
-      <position x="-983.8484" y="1296.8138"/>
+      <position x="-973.29486" y="1293.7986"/>
       <fromState reference="../../../states/state[12]"/>
       <toState reference="../../../states/state[13]"/>
       <condition>L ∧ !T ∧ CLK</condition>
     </transition>
     <transition>
       <values>en = 0, agi = 1</values>
-      <position x="-1048.0382" y="810.0"/>
+      <position x="-1041.6146" y="810.0"/>
       <fromState reference="../../../states/state[13]"/>
       <toState reference="../../../states/state[14]"/>
       <condition>L ∧ !T ∧ C</condition>
     </transition>
     <transition>
       <values>es = 1, agi = 0</values>
-      <position x="-932.1443" y="311.63184"/>
+      <position x="-926.9611" y="314.59366"/>
       <fromState reference="../../../states/state[14]"/>
       <toState reference="../../../states/state[15]"/>
       <condition>L ∧ !T ∧ CLK</condition>
     </transition>
     <transition>
       <values>es = 0, gi = 1</values>
-      <position x="-596.2419" y="-45.923325"/>
+      <position x="-593.93835" y="-41.892136"/>
       <fromState reference="../../../states/state[15]"/>
       <toState reference="../../../states/state[16]"/>
       <condition>L ∧ !T ∧ !C</condition>
     </transition>
     <transition>
       <values>gi = 0</values>
-      <position x="-120.0" y="-155.45139"/>
+      <position x="-120.0" y="-153.19725"/>
       <fromState reference="../../../states/state[16]"/>
       <toState reference="../../../states/state"/>
       <condition>( L ∧ !T ∧ CLK ) + !L</condition>
     </transition>
     <transition>
       <values>en = 1</values>
-      <position x="733.97736" y="727.49994"/>
+      <position x="732.6252" y="728.60175"/>
       <fromState reference="../../../states/state"/>
       <toState reference="../../../states/state[6]"/>
       <condition>L ∧ !T ∧ P1 ∧ !P0</condition>
     </transition>
     <transition>
       <values>en = 1, gi = 0</values>
-      <position x="-376.99658" y="1635.6278"/>
+      <position x="-372.74008" y="1630.9232"/>
       <fromState reference="../../../states/state[9]"/>
       <toState reference="../../../states/state[13]"/>
       <condition>L ∧ !T ∧ P1 ∧ !P0 ∧ CLK</condition>
     </transition>
     <transition>
       <values></values>
-      <position x="-499.37094" y="433.0976"/>
+      <position x="-496.86752" y="435.47583"/>
       <fromState reference="../../../states/state"/>
       <toState reference="../../../states/state[13]"/>
       <condition>L ∧ !T ∧ P1 ∧ P0</condition>
     </transition>
     <transition>
       <values>en = 0</values>
-      <position x="393.7584" y="-116.17459"/>
+      <position x="393.82864" y="-115.54224"/>
       <fromState reference="../../../states/state[2]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values></values>
-      <position x="623.8196" y="5.0224247"/>
+      <position x="622.9368" y="10.024649"/>
       <fromState reference="../../../states/state[3]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>agi = 0</values>
-      <position x="779.3012" y="181.53737"/>
+      <position x="777.5276" y="185.43929"/>
       <fromState reference="../../../states/state[4]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>es = 0</values>
-      <position x="813.0773" y="416.06796"/>
+      <position x="811.2345" y="418.42258"/>
       <fromState reference="../../../states/state[5]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>en = 0</values>
-      <position x="830.5539" y="648.8079"/>
+      <position x="828.9955" y="650.07776"/>
       <fromState reference="../../../states/state[6]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>agi = 0</values>
-      <position x="604.71674" y="927.84375"/>
+      <position x="603.9761" y="928.1824"/>
       <fromState reference="../../../states/state[7]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>es = 0</values>
-      <position x="414.42773" y="1021.4663"/>
+      <position x="414.25305" y="1021.51227"/>
       <fromState reference="../../../states/state[8]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>gi = 0</values>
-      <position x="178.75223" y="1050.064"/>
+      <position x="179.2543" y="1050.0382"/>
       <fromState reference="../../../states/state[9]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>en = 0</values>
-      <position x="-58.562492" y="990.2331"/>
+      <position x="-57.427715" y="990.4171"/>
       <fromState reference="../../../states/state[10]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>agi = 0</values>
-      <position x="-256.60425" y="845.442"/>
+      <position x="-254.9186" y="846.12683"/>
       <fromState reference="../../../states/state[11]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>es = 0</values>
-      <position x="-383.93814" y="693.8167"/>
+      <position x="-381.90622" y="695.09607"/>
       <fromState reference="../../../states/state[12]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>en = 0</values>
-      <position x="-410.74854" y="517.2889"/>
+      <position x="-408.5246" y="519.4016"/>
       <fromState reference="../../../states/state[13]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>agi = 0</values>
-      <position x="-449.84357" y="210.27019"/>
+      <position x="-447.3795" y="214.52632"/>
       <fromState reference="../../../states/state[14]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
     </transition>
     <transition>
       <values>es = 0</values>
-      <position x="-318.86374" y="41.76093"/>
+      <position x="-317.5754" y="46.592197"/>
       <fromState reference="../../../states/state[15]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
+    </transition>
+    <transition>
+      <values>en = 1</values>
+      <position x="700.78815" y="-322.96924"/>
+      <fromState reference="../../../states/state[2]"/>
+      <toState reference="../../../states/state[2]"/>
+      <condition>L ∧ (T + !C)</condition>
+    </transition>
+    <transition>
+      <values></values>
+      <position x="1241.3759" y="-43.352222"/>
+      <fromState reference="../../../states/state[3]"/>
+      <toState reference="../../../states/state[3]"/>
+      <condition>L ∧ (T + !CLK)</condition>
+    </transition>
+    <transition>
+      <values>agi = 1</values>
+      <position x="1574.5166" y="430.08487"/>
+      <fromState reference="../../../states/state[4]"/>
+      <toState reference="../../../states/state[4]"/>
+      <condition>L ∧ (T + !CLK)</condition>
+    </transition>
+    <transition>
+      <values>es = 1</values>
+      <position x="1640.1857" y="975.3118"/>
+      <fromState reference="../../../states/state[5]"/>
+      <toState reference="../../../states/state[5]"/>
+      <condition>L ∧ (T + C)</condition>
+    </transition>
+    <transition>
+      <values>es = 1</values>
+      <position x="754.9425" y="2299.1511"/>
+      <fromState reference="../../../states/state[8]"/>
+      <toState reference="../../../states/state[8]"/>
+      <condition>L ∧ (T + C)</condition>
+    </transition>
+    <transition>
+      <values>es = 1</values>
+      <position x="-1034.3386" y="1560.1984"/>
+      <fromState reference="../../../states/state[12]"/>
+      <toState reference="../../../states/state[12]"/>
+      <condition>L ∧ (T + !CLK)</condition>
+    </transition>
+    <transition>
+      <values>es = 1</values>
+      <position x="-891.8074" y="23.062235"/>
+      <fromState reference="../../../states/state[15]"/>
+      <toState reference="../../../states/state[15]"/>
+      <condition>L ∧ (T + C)</condition>
+    </transition>
+    <transition>
+      <values>en = 1</values>
+      <position x="1565.3462" y="1561.4476"/>
+      <fromState reference="../../../states/state[6]"/>
+      <toState reference="../../../states/state[6]"/>
+      <condition>L ∧ (T + !C)</condition>
+    </transition>
+    <transition>
+      <values>agi = 1</values>
+      <position x="1191.9939" y="2067.2039"/>
+      <fromState reference="../../../states/state[7]"/>
+      <toState reference="../../../states/state[7]"/>
+      <condition>L ∧ (T + !CLK)</condition>
+    </transition>
+    <transition>
+      <values>en = 1</values>
+      <position x="-292.6117" y="2231.8003"/>
+      <fromState reference="../../../states/state[10]"/>
+      <toState reference="../../../states/state[10]"/>
+      <condition>L ∧ (T + !C)</condition>
+    </transition>
+    <transition>
+      <values>en = 1</values>
+      <position x="-1163.267" y="1085.3112"/>
+      <fromState reference="../../../states/state[13]"/>
+      <toState reference="../../../states/state[13]"/>
+      <condition>L ∧ (T + !C)</condition>
+    </transition>
+    <transition>
+      <values>agi = 1</values>
+      <position x="-1161.9497" y="513.14435"/>
+      <fromState reference="../../../states/state[14]"/>
+      <toState reference="../../../states/state[14]"/>
+      <condition>L ∧ (T + !CLK)</condition>
+    </transition>
+    <transition>
+      <values>gi = 1</values>
+      <position x="-395.899" y="-265.8919"/>
+      <fromState reference="../../../states/state[16]"/>
+      <toState reference="../../../states/state[16]"/>
+      <condition>L ∧ (T + !CLK)</condition>
+    </transition>
+    <transition>
+      <values>agi = 1</values>
+      <position x="-743.24835" y="1919.6204"/>
+      <fromState reference="../../../states/state[11]"/>
+      <toState reference="../../../states/state[11]"/>
+      <condition>L ∧ (T + !CLK)</condition>
+    </transition>
+    <transition>
+      <values>gi = 1</values>
+      <position x="232.72142" y="2361.4397"/>
+      <fromState reference="../../../states/state[9]"/>
+      <toState reference="../../../states/state[9]"/>
+      <condition>L ∧ (T + !CLK)</condition>
     </transition>
   </transitions>
 </fsm>

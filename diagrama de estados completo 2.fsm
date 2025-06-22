@@ -12,7 +12,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>en = 1</values>
       <position x="660.0" y="-180.0"/>
       <number>1</number>
       <name>Encher</name>
@@ -32,7 +32,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>agi = 1</values>
       <position x="1440.0" y="480.0"/>
       <number>3</number>
       <name>Lavagem</name>
@@ -42,7 +42,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>es = 1</values>
       <position x="1500.0" y="960.0"/>
       <number>4</number>
       <name>Esvazia</name>
@@ -52,7 +52,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>en = 1</values>
       <position x="1440.0" y="1500.0"/>
       <number>5</number>
       <name>Encher</name>
@@ -62,7 +62,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>agi = 1</values>
       <position x="1080.0" y="1980.0"/>
       <number>6</number>
       <name>Lavagem</name>
@@ -72,7 +72,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>es = 1</values>
       <position x="720.0" y="2160.0"/>
       <number>7</number>
       <name>Esvazia</name>
@@ -82,7 +82,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>gi = 1</values>
       <position x="240.0" y="2220.0"/>
       <number>8</number>
       <name>Centrifugação</name>
@@ -92,7 +92,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>en = 1</values>
       <position x="-240.0" y="2100.0"/>
       <number>9</number>
       <name>Encher</name>
@@ -102,7 +102,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>agi = 1</values>
       <position x="-660.0" y="1800.0"/>
       <number>10</number>
       <name>Enxague</name>
@@ -112,7 +112,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>es = 1</values>
       <position x="-900.0" y="1500.0"/>
       <number>11</number>
       <name>Esvazia</name>
@@ -122,7 +122,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>en = 1</values>
       <position x="-1020.0" y="1080.0"/>
       <number>12</number>
       <name>Encher</name>
@@ -132,7 +132,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>agi = 1</values>
       <position x="-1020.0" y="540.0"/>
       <number>13</number>
       <name>Enxágue</name>
@@ -142,7 +142,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>es = 1</values>
       <position x="-780.0" y="120.0"/>
       <number>14</number>
       <name>Esvazia</name>
@@ -152,7 +152,7 @@
       <defaultDC>false</defaultDC>
     </state>
     <state>
-      <values></values>
+      <values>gi = 1</values>
       <position x="-360.0" y="-120.0"/>
       <number>15</number>
       <name>Centrifugação</name>
@@ -228,7 +228,7 @@
     </transition>
     <transition>
       <values>en = 0, agi = 1</values>
-      <position x="-466.35416" y="1972.8958"/>
+      <position x="-466.354" y="1972.8956"/>
       <fromState reference="../../../states/state[10]"/>
       <toState reference="../../../states/state[11]"/>
       <condition>L ∧ !T ∧ C</condition>
@@ -284,7 +284,7 @@
     </transition>
     <transition>
       <values>en = 1, gi = 0</values>
-      <position x="-376.99658" y="1635.6278"/>
+      <position x="-376.99664" y="1635.6278"/>
       <fromState reference="../../../states/state[9]"/>
       <toState reference="../../../states/state[13]"/>
       <condition>L ∧ !T ∧ P1 ∧ !P0 ∧ CLK</condition>
@@ -340,7 +340,7 @@
     </transition>
     <transition>
       <values>es = 0</values>
-      <position x="414.42773" y="1021.4663"/>
+      <position x="414.4278" y="1021.4663"/>
       <fromState reference="../../../states/state[8]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
@@ -389,7 +389,7 @@
     </transition>
     <transition>
       <values>es = 0</values>
-      <position x="-318.86374" y="41.76093"/>
+      <position x="-318.86374" y="41.760937"/>
       <fromState reference="../../../states/state[15]"/>
       <toState reference="../../../states/state"/>
       <condition>!L</condition>
